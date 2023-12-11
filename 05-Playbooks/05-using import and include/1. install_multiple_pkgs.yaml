@@ -1,6 +1,6 @@
 ---
   - name: Simple play to install multiple pkgs
-    hosts: group1
+    hosts: all
     gather_facts: true
     become: yes
     tasks:
