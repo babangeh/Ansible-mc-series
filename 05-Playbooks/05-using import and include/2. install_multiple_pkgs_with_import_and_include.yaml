@@ -1,7 +1,7 @@
 ---
-  - name: SimpldskjfgsadkgSL play to install multiple pkgs
-    hosts: web_servers
-    gather-FACTS: true
+  - name: Simple play to install multiple pkgs
+    hosts: all
+    gather_facts: true
     become: yes
     tasks:
       - import_tasks: install_webserver_RedHat.yml
